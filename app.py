@@ -7,7 +7,7 @@ import os
           as it is a matter of bad practice. Such an example is the debug endpoint.
 '''
 vuln = int(os.getenv('vulnerable', 1))
-# vuln=1
+vuln=0
 # token alive for how many seconds?
 alive = int(os.getenv('tokentimetolive', 60))
 
